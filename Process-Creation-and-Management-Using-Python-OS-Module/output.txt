@@ -1,0 +1,53 @@
+
+Lab Experiment Sheet-1
+School of Engineering and Technology
+Course Code & Name: ENCS351 Operating System
+Name: Adhvay Banerjee
+Roll Number: 2301410002
+Date/Time: Monday 15 September 2025 03:09:03 PM IST
+
+--- Task 1: Process Creation Utility ---
+Child 1: PID=3442, PPID=3441, Msg=Hello from child process.
+Child 2: PID=3443, PPID=3441, Msg=Hello from child process.
+Child 3: PID=3444, PPID=3441, Msg=Hello from child process.
+Parent PID=3441: All children have finished.
+
+--- Task 2: Command Execution Using exec() ---
+Child 1 PID=3445 executing: ls
+output.txt
+process_management.py
+Child 2 PID=3446 executing: date
+Monday 15 September 2025 03:09:03 PM IST
+Child 3 PID=3447 executing: ps
+    PID TTY          TIME CMD
+   2661 pts/0    00:00:02 zsh
+   3441 pts/0    00:00:00 python3
+   3447 pts/0    00:00:00 ps
+Finished executing commands in child processes.
+
+--- Task 3a: Zombie Process Demonstration ---
+Parent PID=3448 (not waiting for child PID=3449 -- child will be zombie)
+Zombie Child: PID=3449 (about to exit)
+(Check zombie by running: ps -el | grep defunct)
+
+--- Task 3b: Orphan Process Demonstration ---
+Parent PID=3452 exiting before child PID=3453 finishes.
+Orphan Child: PID=3453 sleeping, parent will exit.
+Orphan Child: PID=3453 finished (parent exited, now adopted by init).
+--- Task 4: Process Info from /proc ---
+Process Info for PID 3441:
+  Name:	python3
+  State:	R (running)
+  VmSize:	   17700 kB
+  Executable Path: /usr/bin/python3.13
+  Open File Descriptors: ['0', '1', '2', '3']
+
+--- Task 5: Process Prioritization (nice values) ---
+Child 1: PID=3454 Nice=0 starting CPU-bound work.
+Child 2: PID=3455 Nice=5 starting CPU-bound work.
+Child 3: PID=3456 Nice=10 starting CPU-bound work.
+Child 1: PID=3454 Nice=0 finished CPU-bound work.
+Child 2: PID=3455 Nice=5 finished CPU-bound work.
+Child 3: PID=3456 Nice=10 finished CPU-bound work.
+Priority demo finished.
+
