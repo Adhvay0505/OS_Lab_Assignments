@@ -24,10 +24,8 @@ Each assignment demonstrates the implementation of core OS concepts through prac
 
 ### **📄 Files Included**
 - `process_management.py`  
-- `output.txt`  
-- `OS_Lab_Assignment 1.docx`  
-- `Assignment - OS_Report.pdf`  
-- `Task 1 & 2.png`, `Task 3.png`, `Task 4 & 5.png`, `Task 5.png`
+- `output.txt`    
+- `report.pdf`  
 
 ---
 
@@ -43,18 +41,12 @@ Each assignment demonstrates the implementation of core OS concepts through prac
   - `subtask2_function.py`  
   - `subtask3_process_creation.py`  
   - `subtask4_process_join.py`
+  - `process_log.txt`
 
 #### **Scheduling Algorithms**
 - **FCFS** (First-Come First-Serve)  
 - **SJF** (Shortest Job First)  
 - **Round Robin Scheduling**
-
-### **📄 Files Included**
-- `Scheduling/fcfs.py`  
-- `Scheduling/sjf.py`  
-- `Scheduling/round_robin.py`  
-- `Scheduling-Report.pdf`  
-- `process_log.txt`
 
 ---
 
@@ -62,18 +54,17 @@ Each assignment demonstrates the implementation of core OS concepts through prac
 **Objective:** Extend understanding of OS by implementing scheduling and memory allocation strategies.
 
 ### **Included Tasks**
-- **Task 1 — Scheduling Algorithm Implementation**  
+- **Task 1 — Scheduling Algorithm Implementation (Priority Scheduling & Round Robin scheduling)**  
   Simulate basic process scheduling using Python.  
-- **Task 4 — Memory Allocation Strategies**  
+- **Task 2 — Memory Allocation Strategies**  
   Simulate **Best-Fit**, **Worst-Fit**, and **First-Fit** memory allocation.  
-- **Task 5 — MFT and MVT Simulation**  
+- **Task 3 — MFT and MVT Simulation**  
   Implement **Multiprogramming with Fixed Tasks (MFT)** and **Multiprogramming with Variable Tasks (MVT)**.
 
 ### **📄 Files Included**
-- `task1_scheduling.py`  
-- `task4_memory_allocation.py`  
-- `task5_mft_mvt_simulation.py`  
-- `OS_Assignment3_Report.pdf`
+- `Task1.py`  
+- `Task2.py`  
+- `Task3.py`  
 
 ---
 
@@ -92,8 +83,14 @@ Each assignment demonstrates the implementation of core OS concepts through prac
 - **Task 5 — CPU Scheduling Algorithms (Extended)**  
   Implement: **FCFS**, **SJF**, **Round Robin**, **Priority Scheduling**.
 
+### **📄 Files Included**
+- `Task_1_Batch_Processing.py`
+- `Task2_System_Startup_Logging.py`
+- `Task3_IPC_fork_pipe.py`
+- `Task4_VM_Detection.py` & `Task4_VM_Detection_system_info.sh`
+- `Task5_CPU_Scheduling_Algorithms.py`
+  
 ---
 
-✔️ *This markdown is ready to be used in a README.md file for your GitHub repository.*  
 Let me know if you want it formatted more professionally or want sections like screenshots, badges, or a table of contents!
 
