@@ -1,4 +1,4 @@
-Adhvay Banerjee
-2301410002
-BTech CSE Cybersecurity 
-Sem 5
+- Adhvay Banerjee
+- 2301410002
+- BTech CSE Cybersecurity 
+- Sem 5
