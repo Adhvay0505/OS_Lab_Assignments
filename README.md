@@ -8,7 +8,7 @@
 
 ## 📘 **Overview**
 This repository contains **four Operating Systems lab assignments** completed as part of the 5th-semester curriculum.  
-Each assignment demonstrates the implementation of core OS concepts through practical programming in **C and Python** on a **Linux environment**.
+Each assignment demonstrates the implementation of core OS concepts through practical programming in **Python & some Bash** on a **Linux environment**.
 
 ---
 
